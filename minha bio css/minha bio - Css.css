@@ -1,0 +1,38 @@
+body{                     
+    background: url("https://wallpaperaccess.com/full/2752593.jpg") fixed center;
+    color: white;
+}
+.titulo{
+    margin: 40px 560px 50px 40px;                    
+    border: 7px #41F2CD inset;
+    padding: 8px;
+}    
+a{
+    color: rgb(252, 0, 0);
+    font-size: large;
+}
+a:visited{
+    color:rgb(255, 0, 0) ;
+}
+a:hover{
+    color:rgb(12, 9, 160);
+}
+.borda_lolo{
+    border: #108d72 4px inset;
+    padding: 5%;
+    width: 25%;
+    height: 30%;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;                   
+}
+li{
+    font-style: italic;
+    font-size: large;
+}
+ul{
+    font-size: larger;
+    font-style: bold;
+}
+button{
+    width: 160px;
+}

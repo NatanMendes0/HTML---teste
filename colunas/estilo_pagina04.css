@@ -1,0 +1,68 @@
+html, body{
+    background-color: lightgray;
+    height: 100%;
+}
+/* o * sginifica "qualquer elemento" */
+* {
+    padding: 0;
+    margin:  0;
+}
+div{
+    box-sizing: border-box;
+}
+.cabecalho{
+    width: 100%;
+    padding: 0px;
+    clear: left;
+    margin: 0 auto;
+}
+.rodape{
+    width: 90%;
+    padding: 4px;
+    clear: left;
+    margin: 0 auto;
+    border: 2px dodgerblue solid;
+    background-color: white;
+}
+.cabecalho{
+    height: 220px;                
+    background-image: url("cabeçakkk.jpg");
+    background-size: cover;
+}
+.coluna{
+    width: 30%;                
+    background-color: white;
+    margin: 0.15%;
+    padding: 5px;
+    float: left;
+}
+#minhaDiv{
+    background-color: mediumturquoise;
+    width: 80%;
+    margin: 0 auto;
+    padding: 5px;
+    border: 2px royalblue solid;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    background-color:lightsteelblue;
+}
+.coluna img{
+    width: 100%;
+}
+ul{
+    list-style-type: none;                
+    margin: 0;
+    padding: 0;
+    background-color: lightsteelblue;
+}
+li a{
+    display:block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: cornflowerblue;
+}
